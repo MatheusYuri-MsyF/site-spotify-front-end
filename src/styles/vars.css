@@ -1,5 +1,5 @@
 :root {
-  /* Colors */
+  /* Cores */
   --text-base-dark: #000;
   --text-base-light: #fff;
   --text-sub: #a7a7a7;
@@ -9,7 +9,7 @@
   --grid-gap: 24px;
   --column-count: 5;
 
-  /* Colors Cards */
+  /* Cores dos cartões */
   --card1: rgb(0, 100, 80);
   --card2: rgb(132, 0, 231);
   --card3: rgb(30, 50, 100);
@@ -26,13 +26,15 @@
   --card14: rgb(0, 30, 80);
   --card15: rgb(60, 30, 80);
 
-  /* Fonts */
+  /* Fontes */
   --font-dm-sans: "DM Sans", sans-serif;
 }
 
 /* MEDIA QUERYS */
 @media screen and (max-width: 767px) {
+  /* Estilos para telas com largura máxima de 767px */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1274px) {
+  /* Estilos para telas com largura entre 768px e 1274px */
 }
