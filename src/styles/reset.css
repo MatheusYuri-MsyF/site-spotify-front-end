@@ -80,6 +80,7 @@ time,
 mark,
 audio,
 video {
+  /* Reseta as propriedades de margem, preenchimento, borda, tamanho de fonte e alinhamento vertical de todos os elementos */
   margin: 0;
   padding: 0;
   border: 0;
@@ -99,10 +100,12 @@ hgroup,
 menu,
 nav,
 section {
+  /* Define o display como block para elementos HTML5 em navegadores mais antigos */
   display: block;
 }
 
 body {
+  /* Define o estilo do corpo da página */
   line-height: 1;
   background: #000;
   font-family: var(--font-dm-sans);
@@ -110,11 +113,13 @@ body {
 
 ol,
 ul {
+  /* Remove os marcadores de lista */
   list-style: none;
 }
 
 blockquote,
 q {
+  /* Remove as aspas de citação */
   quotes: none;
 }
 
@@ -122,16 +127,19 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
+  /* Remove os caracteres de citação antes e depois de blocos de citação e citações em linha */
   content: "";
   content: none;
 }
 
 table {
+   /* Define o estilo das tabelas */
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 button {
+   /* Define o estilo dos botões */
   border: none;
   cursor: pointer;
 }
