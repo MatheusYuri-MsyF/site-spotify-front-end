@@ -1,53 +1,65 @@
 @media screen and (max-width: 1015px) {
+  /* Estilos para telas com largura máxima de 1015px */
   .header__search {
+    /* Campo de busca, oculta para telas pequenas */
     /* display: none !important; */
     width: auto !important;
     display: none;
   }
 
   /* .header__login .subscribe {
-    font-size: 12px !important;
+    /* Botão de inscrição, ajusta o tamanho e espaçamento para telas pequenas */
+    /* font-size: 12px !important;
     padding: 10px !important;
     margin-right: 5px !important;
   } */
 
   /* .offer__list-item {
-    grid-template-columns: 1fr 1fr !important;
+    /* Item da lista de ofertas, ajusta o layout para telas pequenas */
+    /* grid-template-columns: 1fr 1fr !important;
   } */
 }
 
 @media screen and (min-width: 1016px) and (max-width: 1140px) {
+  /* Estilos para telas com largura entre 1016px e 1140px */
   .header__search {
+    /* Campo de busca, oculta para telas médias */
     /* display: none !important; */
     width: auto !important;
     display: none;
   }
 
   /* .offer__list-item {
-    grid-template-columns: 1fr 1fr 1fr !important;
+    /* Item da lista de ofertas, ajusta o layout para telas médias */
+    /* grid-template-columns: 1fr 1fr 1fr !important;
   } */
 }
 
 @media screen and (max-width: 375px) {
+  /* Estilos para telas com largura máxima de 375px (dispositivos móveis) */
   .playlist {
+    /* Playlist, oculta para dispositivos móveis */
     display: none;
   }
 
   .playlist-container {
+    /* Contenedor da playlist, ajusta o tamanho para dispositivos móveis */
     width: 100%; /* Ocupa toda a largura disponível */
     height: auto; /* Altura automática, ajusta conforme o conteúdo */
   }
 
   .sidebar {
+    /* Barra lateral, ajusta a largura para dispositivos móveis */
     width: 342px;
   }
 
   .offer__list-item {
+    /* Item da lista de ofertas, ajusta o layout para dispositivos móveis */
     grid-template-columns: 1fr;
   }
 
   .offer__scroll-container {
+    /* Contenedor com scroll, remove o overflow-y para dispositivos móveis */
     overflow-y: visible;
   }
-
 }
